@@ -22,8 +22,8 @@ const int HEIGHT = 10;                          // Height of the game area
 const int WIDTH = 20;
 
 // Implementation of the paddle class
-paddle::paddle()
-{                        // Width of the game area
+paddle::paddle() 
+{
     int paddleX = WIDTH / 2; // Initial horizontal position of the paddle
     bool gameRunning = true;
 
