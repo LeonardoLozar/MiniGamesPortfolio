@@ -3,11 +3,12 @@
 
 #include <iostream> // For input and output
 #include <conio.h> // For _kbhit() and _getch()
-#include "Paddle.h"
+#include "Pong.h"
 
 int main()
 {
-    paddle p;
+    Pong pong;
+    pong.run();
     return 0;
     
 }
