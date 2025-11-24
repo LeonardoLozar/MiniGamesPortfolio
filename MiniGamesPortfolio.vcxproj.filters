@@ -13,10 +13,48 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Pong">
+      <UniqueIdentifier>{23231da4-e212-441c-b572-57fbd83d4adb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Pong\Interface">
+      <UniqueIdentifier>{3eb72a54-834a-4783-b759-2ebf8b8cc5fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Pong\Objects">
+      <UniqueIdentifier>{ad65e640-fcde-45b8-8ce6-725f4c4509a3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MiniGamesPortfolio.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Paddle.cpp">
+      <Filter>Source Files\Pong\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Pong.cpp">
+      <Filter>Source Files\Pong\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Ball.cpp">
+      <Filter>Source Files\Pong\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Frame.cpp">
+      <Filter>Source Files\Pong\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="PreviusPong.cpp">
+      <Filter>Source Files\Pong</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Paddle.h">
+      <Filter>Source Files\Pong\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Ball.h">
+      <Filter>Source Files\Pong\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Pong.h">
+      <Filter>Source Files\Pong\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Frame.h">
+      <Filter>Source Files\Pong\Interface</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
